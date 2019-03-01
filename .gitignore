@@ -1,0 +1,7 @@
+.idea
+*.iml
+out
+gen
+.cache
+node_modules
+dist

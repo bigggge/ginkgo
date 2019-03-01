@@ -1,0 +1,32 @@
+{
+  "name": "ginkgo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "ginkgo-core/index.js",
+  "scripts": {
+    "start": "parcel ./test/index.html -p 3702"
+  },
+  "keywords": [
+    "ginkgo",
+    "react",
+    "redux"
+  ],
+  "author": "bigggge(me@haoduoyu.cc)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "store": "^2.0.12"
+  }
+}
